@@ -1,0 +1,91 @@
+/*
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Thasadith', sans-serif;
+
+*/
+body {
+	font-family: 'Thasadith', sans-serif;
+	text-align: center;
+	background-image: url("../images/volcano-background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 3.7rem;
+	color: #630947;
+	margin: 0;
+	padding: 25px;
+}
+
+p {
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 20px;
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.5rem;
+	color: #630947;
+	margin: 0;
+	padding: 10px;
+}
+
+.container {
+	width: 630px;
+	float: right;
+	margin: 0;
+	display: block;
+}
+
+.left img {
+	float: left;
+	width: 250px;
+	overflow: auto;
+	padding: 10px;
+}
+
+.right img {
+	float: right;
+	width: 250px;
+	overflow: auto;
+	padding: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.container section:nth-child(odd) {
+	background-color: rgba(211, 211, 211,.8);
+}
+
+.container section:nth-child(even) {
+	background-color: rgba(99, 9, 71,.9);
+	color: grey;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(237,142,47,.9);
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.footer p {
+	color: black;
+	font-size: 1rem;
+	padding: 7px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(99,9,71);
+}
